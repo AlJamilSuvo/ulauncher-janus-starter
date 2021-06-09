@@ -1,0 +1,16 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Janus Starter",
+  "description": "Start Janus Server",
+  "developer_name": "jamil_suvo",
+  "icon": "images/janus-logo.png",
+  "options": {
+    "query_debounce": 0.5
+  },
+  "preferences": [{
+    "id": "janus_webrtc_server_starter",
+    "type": "keyword",
+    "name": "Janus Starter",
+    "default_value": "janus"
+  }]
+}
